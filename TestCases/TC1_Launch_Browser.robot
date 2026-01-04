@@ -2,11 +2,12 @@
 Library    SeleniumLibrary
 
 *** Variables ***
-
+${url}  https://testautomationpractice.blogspot.com/
+${browser}  chrome
 
 *** Test Cases ***
 TestCase1
-    Open Browser    https://testautomationpractice.blogspot.com/  chrome
+    Open Browser    ${url}  ${browser}
     Maximize Browser Window
     Sleep    2
         Input Text    id:name   Virat kohli
