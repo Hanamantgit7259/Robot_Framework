@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.4.1 (Python 3.14.2 on win32)" generated="2026-01-04T22:53:34.347743" rpa="false" schemaversion="5">
+<suite id="s1" name="Robot Framework" source="C:\Users\ADC\PythonProject\Robot_Framework">
+<suite id="s1-s1" name="TestCases" source="C:\Users\ADC\PythonProject\Robot_Framework\TestCases">
+<suite id="s1-s1-s1" name="TC1 Launch Browser" source="C:\Users\ADC\PythonProject\Robot_Framework\TestCases\TC1_Launch_Browser.robot">
+<test id="s1-s1-s1-t1" name="TestCase1" line="8">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2026-01-04T22:53:34.738872" level="INFO">Opening browser 'chrome' to base url 'https://testautomationpractice.blogspot.com/'.</msg>
+<arg>https://testautomationpractice.blogspot.com/</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2026-01-04T22:53:34.738594" elapsed="6.092672"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2026-01-04T22:53:40.832219" elapsed="0.059886"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2026-01-04T22:53:42.894135" level="INFO">Slept 2 seconds.</msg>
+<arg>2</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2026-01-04T22:53:40.892953" elapsed="2.001766"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-01-04T22:53:42.898681" level="INFO">Typing text 'Virat kohli' into text field 'id:name'.</msg>
+<arg>id:name</arg>
+<arg>Virat kohli</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-01-04T22:53:42.896852" elapsed="0.227556"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2026-01-04T22:53:47.126089" level="INFO">Slept 4 seconds.</msg>
+<arg>4</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2026-01-04T22:53:43.125077" elapsed="4.001434"/>
+</kw>
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2026-01-04T22:53:47.128905" elapsed="2.336594"/>
+</kw>
+<status status="PASS" start="2026-01-04T22:53:34.737262" elapsed="14.730278"/>
+</test>
+<status status="PASS" start="2026-01-04T22:53:34.411872" elapsed="15.060984"/>
+</suite>
+<status status="PASS" start="2026-01-04T22:53:34.408020" elapsed="15.070571"/>
+</suite>
+<status status="PASS" start="2026-01-04T22:53:34.350814" elapsed="15.133136"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Robot Framework" id="s1" pass="1" fail="0" skip="0">Robot Framework</stat>
+<stat name="TestCases" id="s1-s1" pass="1" fail="0" skip="0">Robot Framework.TestCases</stat>
+<stat name="TC1 Launch Browser" id="s1-s1-s1" pass="1" fail="0" skip="0">Robot Framework.TestCases.TC1 Launch Browser</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
